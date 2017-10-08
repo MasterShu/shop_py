@@ -31,16 +31,41 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="shopsys\apps\catalog\admin.py" />
+    <Compile Include="shopsys\apps\catalog\apps.py" />
+    <Compile Include="shopsys\apps\catalog\form.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="shopsys\apps\catalog\migrations\__init__.py" />
+    <Compile Include="shopsys\apps\catalog\models.py" />
+    <Compile Include="shopsys\apps\catalog\tests.py" />
+    <Compile Include="shopsys\apps\catalog\views.py" />
+    <Compile Include="shopsys\apps\catalog\__init__.py" />
     <Compile Include="shopsys\__init__.py" />
     <Compile Include="shopsys\settings.py" />
     <Compile Include="shopsys\urls.py" />
     <Compile Include="shopsys\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\.gitkeep" />
     <Content Include="requirements.txt" />
+    <Content Include="scripts\.gitkeep" />
+    <Content Include="shopsys\apps\catalog\templates\index.html" />
+    <Content Include="tests\.gitkeep" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="docs\" />
+    <Folder Include="scripts\" />
     <Folder Include="shopsys\" />
+    <Folder Include="shopsys\apps\" />
+    <Folder Include="shopsys\apps\catalog\" />
+    <Folder Include="shopsys\apps\catalog\migrations\" />
+    <Folder Include="shopsys\apps\catalog\templates\" />
+    <Folder Include="shopsys\static\" />
+    <Folder Include="shopsys\templates\" />
+    <Folder Include="shopsys\templatetags\" />
+    <Folder Include="shopsys\utils\" />
+    <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
